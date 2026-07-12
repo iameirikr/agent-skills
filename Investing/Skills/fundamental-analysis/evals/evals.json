@@ -1,0 +1,23 @@
+{
+  "skill_name": "fundamental-analysis",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "Is Costco a buy? Ticker is COST. I'm thinking about holding it for a long time, like 10 years.",
+      "expected_output": "Full fundamental analysis report with 0-100 score, six-pillar scorecard, beginner explanations for each metric, real current data, red-flag check, and saved markdown file. Should surface the classic COST tension: excellent business, expensive valuation.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "prompt": "run the numbers on INTC for me. everyone says it's cheap but idk if it's actually worth owning for 5+ years",
+      "expected_output": "Full report on Intel with a materially lower score reflecting weak profitability/FCF and competitive losses; red flags checked honestly; explains value-trap dynamics in plain English; saved file.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "what do you think of PLTR long term?",
+      "expected_output": "Full report on Palantir; strong growth/moat pillar scores but valuation pillar near the bottom given extreme multiples; score reflects rubric not hype; beginner explanations; saved file.",
+      "files": []
+    }
+  ]
+}
